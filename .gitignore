@@ -1,0 +1,22 @@
+# Local measurements, credentials, videos and reports
+data/
+output/
+demo/
+recordings/
+*.sqlite3
+*.sqlite3-*
+*.mp4
+*.mov
+*.log
+.env
+.env.*
+!.env.example
+# Dependencies and generated packages
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+# macOS
+.DS_Store
+.AppleDouble
